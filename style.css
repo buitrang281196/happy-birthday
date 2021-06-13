@@ -1,0 +1,204 @@
+* {
+    font-family: 'Great Vibes', cursive;
+}
+
+.page-thunder-to-text {
+    position: relative;
+    overflow: hidden;
+}
+
+.page-thunder-to-text canvas {
+    display: block;
+}
+
+.page-thunder-to-text input {
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    display: none;
+    outline: none;
+    background-color: rgba(38, 50, 56, 0.2);
+    color: #fff;
+    border: none;
+    width: 50%;
+    min-width: 500px;
+    max-width: 100%;
+    margin: auto;
+    height: 60px;
+    line-height: 60px;
+    font-size: 40px;
+    padding: 0 20px;
+}
+
+.page-thunder-to-text input:hover,
+.page-thunder-to-text input:focus {
+    border: 1px solid rgba(38, 50, 56, 0.6);
+}
+
+.page-thunder-to-text input::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.1);
+}
+
+#container-thanh {
+    position: relative;
+}
+
+#slider-content {
+    position: absolute;
+    top: 20%;
+    right: 30%;
+    display: block;
+    width: 600px;
+    height: 400px;
+    border: 1px solid black;
+    display: flex;
+}
+
+.control {
+    flex-basis: 50px;
+}
+
+.slide-container {
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    transition: 1s all;
+}
+
+.slide {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+button {
+    cursor: pointer;
+    /* background-color: black; */
+    border: none;
+}
+
+#prev {
+    border-radius: 8px 0px 0px 8px;
+}
+
+#next {
+    border-radius: 0px 8px 8px 0px;
+}
+
+a {
+    text-decoration: none;
+    background-color: orange;
+    width: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+
+/* ------------------------------------------------------------------------------ */
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+#container {
+    position: absolute;
+    width: 700px;
+    height: 600px;
+    background-color: #e8e8e8;
+    top: 0;
+    right: 30%;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-image: url(images/hpbd.jpg);
+    background-size: cover;
+}
+
+.carousel-container {
+    position: absolute;
+    width: 530px;
+    height: 540px;
+    overflow: hidden;
+    top: -30px;
+    left: 85px;
+}
+
+.box {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    display: none;
+    top: 0px;
+    left: 0px;
+}
+
+#box1 {
+    background-image: url(images/1.jpg);
+}
+
+#box2 {
+    background-image: url(images/2.jpg);
+}
+
+#box3 {
+    background-image: url(images/3.jpg);
+}
+
+#box4 {
+    background-image: url(images/4.jpg);
+}
+
+#box5 {
+    background-image: url(images/5.jpg);
+}
+
+#box6 {
+    background-image: url(images/6.jpg);
+}
+
+#box7 {
+    background-image: url(images/7.jpg);
+}
+
+#box8 {
+    background-image: url(images/8.jpg);
+}
+
+#box9 {
+    background-image: url(images/9.jpg);
+}
+
+#box10 {
+    background-image: url(images/10.jpg);
+}
+
+#box11 {
+    background-image: url(images/11.jpg);
+}
+
+nav {
+    position: absolute;
+    width: 100%;
+    bottom: 20px;
+    display: none;
+    justify-content: center;
+}
+
+#text {
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+    margin-top: 50px;
+    white-space: 50px;
+    font-size: 40px;
+    font-weight: bold;
+}
